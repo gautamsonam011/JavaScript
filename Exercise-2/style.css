@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    background-color: rgb(118, 245, 125);
+}
+h1{
+    font-family: cursive;
+    /* font-size: larger; */
+}
