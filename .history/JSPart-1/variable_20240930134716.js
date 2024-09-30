@@ -40,9 +40,6 @@ console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);
 
 const myName = new String('Sonam Gautam');
 
-
-// Methods 
-
 console.log(myName[0]);
 console.log(myName.__proto__);
 console.log(myName.length);
@@ -55,16 +52,5 @@ console.log(myName.indexOf('G'));
 const newString = myName.substring(0, 4);
 console.log(newString);
 
-const anotherString = myName.slice(-4, 2);
+const anotherString = myName.slice(-8, 3);
 console.log(anotherString);
-
-const newStringOne = "   Sonam  ";
-console.log(newStringOne);
-console.log(newStringOne.trim());     // trim use for space remove 
-
-const url = "https://shjd.com/sdjfgj";
-
-console.log(url.replace('j', '-'));
-console.log(url.includes('sundar'));
-
-console.log(myName.split('_'));

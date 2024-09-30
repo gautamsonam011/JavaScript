@@ -40,9 +40,6 @@ console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);
 
 const myName = new String('Sonam Gautam');
 
-
-// Methods 
-
 console.log(myName[0]);
 console.log(myName.__proto__);
 console.log(myName.length);
@@ -66,5 +63,3 @@ const url = "https://shjd.com/sdjfgj";
 
 console.log(url.replace('j', '-'));
 console.log(url.includes('sundar'));
-
-console.log(myName.split('_'));

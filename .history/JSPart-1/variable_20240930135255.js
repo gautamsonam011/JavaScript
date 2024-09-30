@@ -67,4 +67,4 @@ const url = "https://shjd.com/sdjfgj";
 console.log(url.replace('j', '-'));
 console.log(url.includes('sundar'));
 
-console.log(myName.split('_'));
+console.log()
