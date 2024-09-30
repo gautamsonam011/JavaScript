@@ -67,14 +67,3 @@ const another_array = [1,2,4,5,6,[7,5,4,3,6,[6,5,4]]]
 const real_another_array = another_array.flat(Infinity)
 
 console.log(real_another_array)
-
-console.log(Array.isArray("Sonam"));
-console.log(Array.from("Gautam"));
-console.log(Array.from({name:"Sonam"})); // interesting
-
-let score1 = 100
-let score2 = 200
-let score3 = 300
-let score4 = 400
-
-console.log(Array.of(score1, score2, score3, score4));
